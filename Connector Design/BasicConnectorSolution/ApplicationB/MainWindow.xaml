@@ -1,0 +1,23 @@
+﻿<Window x:Class="ApplicationB.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:Views="clr-namespace:ApplicationB.Views" 
+        xmlns:controllers="clr-namespace:ApplicationB.Controllers" 
+        Title="MainWindow" Height="722" Width="1210">
+    <Window.DataContext>
+        <controllers:MasterDetailController/>
+    </Window.DataContext>
+    <Grid>
+        <Views:DetailOverview x:Name="DetailOverview"
+                              HorizontalAlignment="Left" Width="680"
+                              Height="275" Margin="0,0,0,408">
+            
+        </Views:DetailOverview>
+        <Views:MasterGrid x:Name="masterGrid" 
+                          HorizontalAlignment="Center"
+                          VerticalAlignment="Bottom" Height="424" Margin="-6,0">
+            
+        </Views:MasterGrid>        
+        
+    </Grid>
+</Window>

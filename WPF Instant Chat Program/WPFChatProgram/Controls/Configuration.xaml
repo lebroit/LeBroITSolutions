@@ -1,0 +1,178 @@
+﻿<UserControl x:Class="WPFChatProgram.Controls.Configuration"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:controller="clr-namespace:WPFChatProgram.Controllers" 
+             xmlns:local="clr-namespace:LeBroITSolutions.MaskedTextBox;assembly=LeBroITSolutions.MaskedTextBox" 
+             mc:Ignorable="d" 
+             d:DesignHeight="427" d:DesignWidth="405">
+    <UserControl.DataContext>
+        <controller:ConfigurationController/>
+    </UserControl.DataContext>
+    <Grid>
+        <Border Style="{StaticResource ConfigOuterBorderStyle}">
+        </Border>
+        <Border Style="{StaticResource ConfigMiddleBorderStyle}">
+        </Border>
+        <Border Style="{StaticResource ConfigInnerBorderStyle}">
+        </Border>
+        <Border Style="{StaticResource ConfigMoreInnerBorderStyle}">
+        </Border>
+        <Border Style="{StaticResource ConfigMostInnerBorderStyle}"/>
+        <!--Header styling and text-->
+        <Border Style="{StaticResource HeaderBorderStyle}" 
+                Width="372"
+                Margin="16,19,0,0" 
+                HorizontalAlignment="Left" >
+            <Label Name="lblTitle"
+                   Style="{StaticResource LabelTitleStyle}"
+                   Content="{DynamicResource ConfSettings}" Width="321"/>
+        </Border>
+        <!--Content Grid-->
+        <Grid Name="ContentGrid" d:DataContext="{d:DesignInstance {x:Type controller:ConfigurationController}}" Width="340" HorizontalAlignment="Center" Margin="35,100,30,23">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="165*"/>
+                <ColumnDefinition Width="175*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--Row 1 controls for IP-->
+            <Label FontFamily="Verdana" 
+                   Grid.Row="0" Grid.Column="0" 
+                   Foreground="#FF0E0AAE" 
+                   FontSize="15" 
+                   VerticalAlignment="Center" 
+                   Content="{DynamicResource IPAddress}" />
+            <ComboBox Name="IpAddressesCmb"  
+                      Style="{StaticResource ComboBoxStyle}"
+                      Grid.Row="0" Grid.Column="1" 
+                      Template="{StaticResource ComboBoxTemplate}" 
+                      TabIndex="1" IsEditable="True"                       
+                      Text="{Binding Path=MainUser.IpAddress}"
+                      ToolTip="{DynamicResource IPTooltip}"/>
+
+            <!--Row 2 controls for the Port-->
+            <Label FontFamily="Verdana" 
+                   Grid.Row="1" Grid.Column="0" 
+                   Foreground="#FF0E0AAE" 
+                   FontSize="15" 
+                   VerticalAlignment="Center" 
+                   Content="{DynamicResource Port}"/>
+            <TextBox Name="PortTxt" 
+                     TextWrapping="NoWrap" 
+                     AcceptsReturn="False" 
+                     Grid.Row="1" Grid.Column="1" 
+                     Width="165" Height="23"  
+                     Style="{StaticResource ChatTextBoxStyle}" 
+                     Foreground="#FF0C0981" FontSize="12" 
+                     Text="{Binding Path=MainUser.DefaultPort, Mode=TwoWay}"
+                     ToolTip="{DynamicResource PortToolTip}"
+                     TabIndex="2"/>
+
+            <!--Row 3 controls controls for the subnetmask-->
+            <Label FontFamily="Verdana" Grid.Row="2" Grid.Column="0" Foreground="#FF0E0AAE" FontSize="15" VerticalAlignment="Center" 
+                   Content="{DynamicResource SubnetMask}"/>
+            <local:MaskedTextBox x:Name="SubnetTxt" 
+                                 Mask="000.000.000.000"
+                                 TextWrapping="NoWrap"
+                                 AcceptsReturn="False" 
+                                 Grid.Row="2" Grid.Column="1"
+                                 Width="165" Height="23" 
+                                 Foreground="#FF0C0981" FontSize="12"
+                                 Style="{StaticResource ChatTextBoxStyle}"                              
+                                 Text="{Binding Path=MainUser.SubnetMask, Mode=TwoWay}"
+                                 ToolTip="{DynamicResource SubnetMaskToolTip}"
+                                 TabIndex="3"/>
+
+            <!--Row 4 controls controls for the username-->
+            <Label FontFamily="Verdana" 
+                   Grid.Row="3" Grid.Column="0" 
+                   Foreground="#FF0E0AAE" 
+                   FontSize="15" 
+                   VerticalAlignment="Center" 
+                   Content="{DynamicResource UserName}"/>
+            <TextBox Name="UserNameTxt" 
+                     TextWrapping="NoWrap" AcceptsReturn="False" 
+                     Grid.Row="3" Grid.Column="1" 
+                     Width="165" Height="23" 
+                     Style="{StaticResource ChatTextBoxStyle}" 
+                     Foreground="#FF0C0981" FontSize="12" 
+                     Text="{Binding Path=MainUser.UserName, Mode=TwoWay}" TabIndex="4"/>
+
+            <!--Row 5 controls for the Alias-->
+            <Label FontFamily="Verdana" 
+                   Grid.Row="4" Grid.Column="0" 
+                   Foreground="#FF0E0AAE" FontSize="15" 
+                   VerticalAlignment="Center" 
+                   Content="{DynamicResource Alias}"/>
+            <TextBox Name="AliasTxt" 
+                     TextWrapping="NoWrap" AcceptsReturn="False" 
+                     Grid.Row="4" Grid.Column="1" 
+                     Width="165" Height="23"
+                     Style="{StaticResource ChatTextBoxStyle}" 
+                     Foreground="#FF0C0981" FontSize="12"
+                     IsEnabled="{Binding ElementName=NameOrAliasChk, Path=IsChecked}"  
+                     Text="{Binding Path=MainUser.Alias, Mode=TwoWay}" 
+                     TabIndex="5"/>
+            <CheckBox Name="NameOrAliasChk" 
+                      FontFamily="Verdana" 
+                      Grid.Row="5" Grid.ColumnSpan="2"  
+                      FontSize="15" Foreground="#FF0E0AAE"
+                      Content="{DynamicResource UserNameAlias}" 
+                      Style="{StaticResource CheckboxLeftSideText}"  
+                      Width="250" Margin="5,12,0,12"
+                      TabIndex="6"
+                      Unchecked="NameOrAliasChkChecked" Checked="NameOrAliasChkChecked" 
+                      IsChecked="{Binding Path=MainUser.UserNameOrAlias, Mode=TwoWay}" />
+
+            <!--Row 6 controls for the Alias-->
+            <Label FontFamily="Verdana" 
+                   Grid.Row="6" Grid.Column="0" 
+                   Foreground="#FF0E0AAE" FontSize="15" 
+                   VerticalAlignment="Center" 
+                   Content="{DynamicResource Language}"/>
+            <ComboBox Name="LanguageCmb"
+                      Style="{StaticResource ComboBoxStyle}"
+                      Grid.Row="6" Grid.Column="1" 
+                      Template="{StaticResource ComboBoxTemplate}" 
+                      TabIndex="1" IsEditable="False" 
+                      Text="{Binding Path=MainUser.Language}" 
+                      SelectedItem="{Binding Path=MainUser.Language, Mode=TwoWay}" 
+                      ItemsSource="{Binding Path=Languages, Mode=TwoWay}" 
+                      SelectionChanged="LanguageCmbSelectionChanged" />
+
+            <!--Row 7 Buttonn controls for saving -->
+            <Button Template="{DynamicResource GlassButtonBlue}"
+                    ToolTip="{DynamicResource SaveToolTip}"
+                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Grid.Row="7" Grid.Column="0" 
+                    Width="90" Height="25" 
+                    Foreground="{StaticResource FormTitleYellow}" 
+                    FontWeight="Bold"
+                    Content="{DynamicResource Save}" 
+                    Command="{Binding Path=SaveCommand}" 
+                    TabIndex="7" IsDefault="True"/>
+            <Button Name="ContinueBtn"
+                    Template="{DynamicResource GlassButtonBlue}"                    
+                    HorizontalAlignment="Center" VerticalAlignment="Center"
+                    Grid.Row="7" Grid.Column="1" 
+                    Width="90" Height="25" 
+                    Foreground="{StaticResource FormTitleYellow}" 
+                    FontWeight="Bold"
+                    Content="{DynamicResource ContinueClick}" 
+                    Click="ContinueClicked" Command="{Binding Path=SaveCommand}" 
+                    TabIndex="0"
+                    IsDefault="True"/>
+        </Grid>
+    </Grid>
+</UserControl>

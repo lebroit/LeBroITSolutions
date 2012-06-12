@@ -1,0 +1,46 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">    
+    <!--http://stackoverflow.com/questions/814600/multilanguage-in-wpf-->
+    <!--MainWindow Context Menu text -->
+    <system:String x:Key="OpenContextMenu">RechtsKlik om het Window menu te openen</system:String>
+    <system:String x:Key="Minimize2Tray">Minimaliseer in de taskbar</system:String>
+    <system:String x:Key="CloseChat">Afsluiten?</system:String>    
+    <!--Configuration view Headertext-->
+    <system:String x:Key="ConfSettings">Configuratie Instellingen</system:String>
+    <!--Configuration view Content text-->
+    <system:String x:Key="IPAddress">IP-Adres</system:String>
+    <system:String x:Key="IPTooltip">Selecteer je lokale IPAdres</system:String>
+    <system:String x:Key="Port">Poort</system:String>
+    <system:String x:Key="PortToolTip">Standaard poort is 8080</system:String>
+    <system:String x:Key="SubnetMask">Subnet Masker</system:String>
+    <system:String x:Key="SubnetMaskToolTip">Gebruik de standaard of controleer je netwerkinstellingen</system:String>
+    <system:String x:Key="UserName">Gebruikersnaaam</system:String>
+    <system:String x:Key="Alias">Alias</system:String>
+    <system:String x:Key="UserNameAlias">Alias gebruiken?</system:String>
+    <system:String x:Key="Language">Taal instellen</system:String>
+    <system:String x:Key="Save">Opslaan</system:String>
+    <system:String x:Key="SaveToolTip">Druk om de instellingen te bewaren</system:String>
+    <system:String x:Key="ContinueClick">Doorgaan</system:String>
+    <!--Who's Online view Content text-->
+    <system:String x:Key="AddUser">Toevoegen?</system:String>
+    <system:String x:Key="ComputerNameAdd">Type een computernaam en eventueel IP-adres gescheiden met een komma en voeg toe met de knop</system:String>    
+    <system:String x:Key="WhosOnline">Wie is er Online?</system:String>
+    <system:String x:Key="DeleteHost">Deze computer verwijderen?</system:String>
+    <system:String x:Key="StartChat">Start chat met deze computer?</system:String>
+    <system:String x:Key="HostsOnline">Rechtsklik op een computernaam om een chat te starten</system:String>
+    <!--Chat view Content text-->
+    <system:String x:Key="SetFontSize">Lettergrootte</system:String>
+    <system:String x:Key="SetFont">Lettertype</system:String>
+    <system:String x:Key="SetFontColor">Letter kleur</system:String>
+    <!--Chat view Tooltip text-->
+    <system:String x:Key="AddImageButtonTooltip">Emoticon toevoegen?</system:String>
+    <system:String x:Key="EditTextPropsTooltip">Rechtsklik voor meer opties</system:String>
+    <system:String x:Key="SetFontSizeTooltip">Kies een Lettergrootte</system:String>
+    <system:String x:Key="SetFontTooltip">Kies een Lettertype</system:String>  
+    <system:String x:Key="SetFontColorTooltip">Kies een kleur voor de letters</system:String>
+    <system:String x:Key="EraseMainTextTooltip">Alle tekst wissen?</system:String>
+    <system:String x:Key="IndicatorLightTooltip">Groen Chat contactpersoon is actief, rood niet actief</system:String>
+    <!--Chat view Error text-->
+    <system:String x:Key="IconLoadError">Helaas is er iets misgegaan, zie het errorlog in de installatie map voor details</system:String>
+</ResourceDictionary>

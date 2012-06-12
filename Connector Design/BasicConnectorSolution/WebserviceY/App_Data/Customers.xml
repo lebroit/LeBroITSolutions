@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <CustomerID>ALFKI</CustomerID>
+    <Bedrijfsnaam>Alfreds Futterkiste</Bedrijfsnaam>
+    <Contact>Maria Anders</Contact>
+    <Adres>Obere Str. 57</Adres>
+    <Woonplaats>Berlin</Woonplaats>
+    <Provincie />
+    <Postcode>12209</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>030-0074321</Telefoon>
+    <Fax>030-0076545</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>ANATR</CustomerID>
+    <Bedrijfsnaam>Ana Trujillo Emparedados y helados</Bedrijfsnaam>
+    <Contact>Ana Trujillo</Contact>
+    <Adres>Avda. de la Constitución 2222</Adres>
+    <Woonplaats>México D.F.</Woonplaats>
+    <Provincie />
+    <Postcode>05021</Postcode>
+    <Land>Mexico</Land>
+    <Telefoon>(5) 555-4729</Telefoon>
+    <Fax>(5) 555-3745</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>ANTON</CustomerID>
+    <Bedrijfsnaam>Antonio Moreno Taquería</Bedrijfsnaam>
+    <Contact>Antonio Moreno</Contact>
+    <Adres>Mataderos  2312</Adres>
+    <Woonplaats>México D.F.</Woonplaats>
+    <Provincie />
+    <Postcode>05023</Postcode>
+    <Land>Mexico</Land>
+    <Telefoon>(5) 555-3932</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>AROUT</CustomerID>
+    <Bedrijfsnaam>Around the Horn</Bedrijfsnaam>
+    <Contact>Thomas Hardy</Contact>
+    <Adres>120 Hanover Sq.</Adres>
+    <Woonplaats>London</Woonplaats>
+    <Provincie />
+    <Postcode>WA1 1DP</Postcode>
+    <Land>UK</Land>
+    <Telefoon>(171) 555-7788</Telefoon>
+    <Fax>(171) 555-6750</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BERGS</CustomerID>
+    <Bedrijfsnaam>Berglunds snabbköp</Bedrijfsnaam>
+    <Contact>Christina Berglund</Contact>
+    <Adres>Berguvsvägen  8</Adres>
+    <Woonplaats>Luleå</Woonplaats>
+    <Provincie />
+    <Postcode>S-958 22</Postcode>
+    <Land>Sweden</Land>
+    <Telefoon>0921-12 34 65</Telefoon>
+    <Fax>0921-12 34 67</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BLAUS</CustomerID>
+    <Bedrijfsnaam>Blauer See Delikatessen</Bedrijfsnaam>
+    <Contact>Hanna Moos</Contact>
+    <Adres>Forsterstr. 57</Adres>
+    <Woonplaats>Mannheim</Woonplaats>
+    <Provincie />
+    <Postcode>68306</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>0621-08460</Telefoon>
+    <Fax>0621-08924</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BLONP</CustomerID>
+    <Bedrijfsnaam>Blondesddsl père et fils</Bedrijfsnaam>
+    <Contact>Frédérique Citeaux</Contact>
+    <Adres>24, place Kléber</Adres>
+    <Woonplaats>Strasbourg</Woonplaats>
+    <Provincie />
+    <Postcode>67000</Postcode>
+    <Land>France</Land>
+    <Telefoon>88.60.15.31</Telefoon>
+    <Fax>88.60.15.32</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BOLID</CustomerID>
+    <Bedrijfsnaam>Bólido Comidas preparadas</Bedrijfsnaam>
+    <Contact>Martín Sommer</Contact>
+    <Adres>C/ Araquil, 67</Adres>
+    <Woonplaats>Madrid</Woonplaats>
+    <Provincie />
+    <Postcode>28023</Postcode>
+    <Land>Spain</Land>
+    <Telefoon>(91) 555 22 82</Telefoon>
+    <Fax>(91) 555 91 99</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BONAP</CustomerID>
+    <Bedrijfsnaam>Bon app</Bedrijfsnaam>
+    <Contact>Laurence Lebihan</Contact>
+    <Adres>12, rue des Bouchers</Adres>
+    <Woonplaats>Marseille</Woonplaats>
+    <Provincie />
+    <Postcode>13008</Postcode>
+    <Land>France</Land>
+    <Telefoon>91.24.45.40</Telefoon>
+    <Fax>91.24.45.41</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BOTTM</CustomerID>
+    <Bedrijfsnaam>Bottom-Dollar Markets</Bedrijfsnaam>
+    <Contact>Elizabeth Lincoln</Contact>
+    <Adres>23 Tsawassen Blvd.</Adres>
+    <Woonplaats>Tsawassen</Woonplaats>
+    <Provincie>BC</Provincie>
+    <Postcode>T2F 8M4</Postcode>
+    <Land>Canada</Land>
+    <Telefoon>(604) 555-4729</Telefoon>
+    <Fax>(604) 555-3745</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>BSBEV</CustomerID>
+    <Bedrijfsnaam>Beverages</Bedrijfsnaam>
+    <Contact>Victoria Ashworth</Contact>
+    <Adres>Fauntleroy Circus</Adres>
+    <Woonplaats>London</Woonplaats>
+    <Provincie />
+    <Postcode>EC2 5NT</Postcode>
+    <Land>UK</Land>
+    <Telefoon>(171) 555-1212</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>CACTU</CustomerID>
+    <Bedrijfsnaam>Cactus Comidas para llevar</Bedrijfsnaam>
+    <Contact>Patricio Simpson</Contact>
+    <Adres>Cerrito 333</Adres>
+    <Woonplaats>Buenos Aires</Woonplaats>
+    <Provincie />
+    <Postcode>1010</Postcode>
+    <Land>Argentina</Land>
+    <Telefoon>(1) 135-5555</Telefoon>
+    <Fax>(1) 135-4892</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>CENTC</CustomerID>
+    <Bedrijfsnaam>Centro comercial Moctezuma</Bedrijfsnaam>
+    <Contact>Francisco Chang</Contact>
+    <Adres>Sierras de Granada 9993</Adres>
+    <Woonplaats>México D.F.</Woonplaats>
+    <Provincie />
+    <Postcode>05022</Postcode>
+    <Land>Mexico</Land>
+    <Telefoon>(5) 555-3392</Telefoon>
+    <Fax>(5) 555-7293</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>CHOPS</CustomerID>
+    <Bedrijfsnaam>Chop-suey Chinese</Bedrijfsnaam>
+    <Contact>Yang 
+ Wang</Contact>
+    <Adres>Hauptstr. 29</Adres>
+    <Woonplaats>Bern</Woonplaats>
+    <Provincie />
+    <Postcode>3012</Postcode>
+    <Land>Switzerland</Land>
+    <Telefoon>0452-076545</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>COMMI</CustomerID>
+    <Bedrijfsnaam>Comércio Mineiro</Bedrijfsnaam>
+    <Contact>Pedro Afonso</Contact>
+    <Adres>Av. dos Lusíadas, 23</Adres>
+    <Woonplaats>Sao Paulo</Woonplaats>
+    <Provincie>SP</Provincie>
+    <Postcode>05432-043</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(11) 555-7647</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>CONSH</CustomerID>
+    <Bedrijfsnaam>Consolidated Holdings</Bedrijfsnaam>
+    <Contact>Elizabeth Brown</Contact>
+    <Adres>Berkeley Gardens 12  Brewery</Adres>
+    <Woonplaats>London</Woonplaats>
+    <Provincie />
+    <Postcode>WX1 6LT</Postcode>
+    <Land>UK</Land>
+    <Telefoon>(171) 555-2282</Telefoon>
+    <Fax>(171) 555-9199</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>DRACD</CustomerID>
+    <Bedrijfsnaam>Drachenblut Delikatessen</Bedrijfsnaam>
+    <Contact>Sven Ottlieb</Contact>
+    <Adres>Walserweg 21</Adres>
+    <Woonplaats>Aachen</Woonplaats>
+    <Provincie />
+    <Postcode>52066</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>0241-039123</Telefoon>
+    <Fax>0241-059428</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>DUMON</CustomerID>
+    <Bedrijfsnaam>Du monde entier</Bedrijfsnaam>
+    <Contact>Janine Labrune</Contact>
+    <Adres>67, rue des Cinquante Otages</Adres>
+    <Woonplaats>Nantes</Woonplaats>
+    <Provincie />
+    <Postcode>44000</Postcode>
+    <Land>France</Land>
+    <Telefoon>40.67.88.88</Telefoon>
+    <Fax>40.67.89.89</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>EASTC</CustomerID>
+    <Bedrijfsnaam>Eastern Connection</Bedrijfsnaam>
+    <Contact>Ann Devon</Contact>
+    <Adres>35 King George</Adres>
+    <Woonplaats>London</Woonplaats>
+    <Provincie />
+    <Postcode>WX3 6FW</Postcode>
+    <Land>UK</Land>
+    <Telefoon>(171) 555-0297</Telefoon>
+    <Fax>(171) 555-3373</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>ERNSH</CustomerID>
+    <Bedrijfsnaam>Ernst Handel</Bedrijfsnaam>
+    <Contact>Roland Mendel</Contact>
+    <Adres>Kirchgasse 6</Adres>
+    <Woonplaats>Graz</Woonplaats>
+    <Provincie />
+    <Postcode>8010</Postcode>
+    <Land>Austria</Land>
+    <Telefoon>7675-3425</Telefoon>
+    <Fax>7675-3426</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>FAMIA</CustomerID>
+    <Bedrijfsnaam>Familia Arquibaldo</Bedrijfsnaam>
+    <Contact>Aria Cruz</Contact>
+    <Adres>Rua Orós, 92</Adres>
+    <Woonplaats>Sao Paulo</Woonplaats>
+    <Provincie>SP</Provincie>
+    <Postcode>05442-030</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(11) 555-9857</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>FISSA</CustomerID>
+    <Bedrijfsnaam>FISSA Fabrica Inter. Salchichas S.A.</Bedrijfsnaam>
+    <Contact>Diego Roel</Contact>
+    <Adres>C/ Moralzarzal, 86</Adres>
+    <Woonplaats>Madrid</Woonplaats>
+    <Provincie />
+    <Postcode>28034</Postcode>
+    <Land>Spain</Land>
+    <Telefoon>(91) 555 94 44</Telefoon>
+    <Fax>(91) 555 55 93</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>FOLIG</CustomerID>
+    <Bedrijfsnaam>Folies gourmandes</Bedrijfsnaam>
+    <Contact>Martine Rancé</Contact>
+    <Adres>184, chaussée de Tournai</Adres>
+    <Woonplaats>Lille</Woonplaats>
+    <Provincie />
+    <Postcode>59000</Postcode>
+    <Land>France</Land>
+    <Telefoon>20.16.10.16</Telefoon>
+    <Fax>20.16.10.17</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>FOLKO</CustomerID>
+    <Bedrijfsnaam>Folk och fä HB</Bedrijfsnaam>
+    <Contact>Maria Larsson</Contact>
+    <Adres>Åkergatan 24</Adres>
+    <Woonplaats>Bräcke</Woonplaats>
+    <Provincie />
+    <Postcode>S-844 67</Postcode>
+    <Land>Sweden</Land>
+    <Telefoon>0695-34 67 21</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>FRANK</CustomerID>
+    <Bedrijfsnaam>Frankenversand</Bedrijfsnaam>
+    <Contact>Peter Franken</Contact>
+    <Adres>Berliner Platz 43</Adres>
+    <Woonplaats>München</Woonplaats>
+    <Provincie />
+    <Postcode>80805</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>089-0877310</Telefoon>
+    <Fax>089-0877451</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>FRANR</CustomerID>
+    <Bedrijfsnaam>France restauration</Bedrijfsnaam>
+    <Contact>Carine Schmitt</Contact>
+    <Adres>54, rue Royale</Adres>
+    <Woonplaats>Nantes</Woonplaats>
+    <Provincie />
+    <Postcode>44000</Postcode>
+    <Land>France</Land>
+    <Telefoon>40.32.21.21</Telefoon>
+    <Fax>40.32.21.20</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>FRANS</CustomerID>
+    <Bedrijfsnaam>Franchi S.p.A.</Bedrijfsnaam>
+    <Contact>Paolo Accorti</Contact>
+    <Adres>Via Monte Bianco 34</Adres>
+    <Woonplaats>Torino</Woonplaats>
+    <Provincie />
+    <Postcode>10100</Postcode>
+    <Land>Italy</Land>
+    <Telefoon>011-4988260</Telefoon>
+    <Fax>011-4988261</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>FURIB</CustomerID>
+    <Bedrijfsnaam>Furia Bacalhau e Frutos do Mar</Bedrijfsnaam>
+    <Contact>Lino Rodriguez</Contact>
+    <Adres>Jardim das rosas n. 32</Adres>
+    <Woonplaats>Lisboa</Woonplaats>
+    <Provincie />
+    <Postcode>1675</Postcode>
+    <Land>Portugal</Land>
+    <Telefoon>(1) 354-2534</Telefoon>
+    <Fax>(1) 354-2535</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>GALED</CustomerID>
+    <Bedrijfsnaam>Galería del gastrónomo</Bedrijfsnaam>
+    <Contact>Eduardo Saavedra</Contact>
+    <Adres>Rambla de Cataluña, 23</Adres>
+    <Woonplaats>Barcelona</Woonplaats>
+    <Provincie />
+    <Postcode>08022</Postcode>
+    <Land>Spain</Land>
+    <Telefoon>(93) 203 4560</Telefoon>
+    <Fax>(93) 203 4561</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>GODOS</CustomerID>
+    <Bedrijfsnaam>Godos Cocina Típica</Bedrijfsnaam>
+    <Contact>José Pedro Freyre</Contact>
+    <Adres>C/ Romero, 33</Adres>
+    <Woonplaats>Sevilla</Woonplaats>
+    <Provincie />
+    <Postcode>41101</Postcode>
+    <Land>Spain</Land>
+    <Telefoon>(95) 555 82 82</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>GOURL</CustomerID>
+    <Bedrijfsnaam>Gourmet Lanchonetes</Bedrijfsnaam>
+    <Contact>André Fonseca</Contact>
+    <Adres>Av. Brasil, 442</Adres>
+    <Woonplaats>Campinas</Woonplaats>
+    <Provincie>SP</Provincie>
+    <Postcode>04876-786</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(11) 555-9482</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>GREAL</CustomerID>
+    <Bedrijfsnaam>Great Lakes Food Market</Bedrijfsnaam>
+    <Contact>Howard Snyder</Contact>
+    <Adres>2732 Baker Blvd.</Adres>
+    <Woonplaats>Eugene</Woonplaats>
+    <Provincie>OR</Provincie>
+    <Postcode>97403</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(503) 555-7555</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>GROSR</CustomerID>
+    <Bedrijfsnaam>GROSELLA-Restaurante</Bedrijfsnaam>
+    <Contact>Manuel Pereira</Contact>
+    <Adres>5ª Ave. Los Palos Grandes</Adres>
+    <Woonplaats>Caracas</Woonplaats>
+    <Provincie>DF</Provincie>
+    <Postcode>1081</Postcode>
+    <Land>Venezuela</Land>
+    <Telefoon>(2) 283-2951</Telefoon>
+    <Fax>(2) 283-3397</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>HANAR</CustomerID>
+    <Bedrijfsnaam>Hanari Carnes</Bedrijfsnaam>
+    <Contact>Mario Pontes</Contact>
+    <Adres>Rua do Paço, 67</Adres>
+    <Woonplaats>Rio de Janeiro</Woonplaats>
+    <Provincie>RJ</Provincie>
+    <Postcode>05454-876</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(21) 555-0091</Telefoon>
+    <Fax>(21) 555-8765</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>HILAA</CustomerID>
+    <Bedrijfsnaam>HILARION-Abastos</Bedrijfsnaam>
+    <Contact>Carlos Hernández</Contact>
+    <Adres>Carrera 22 con Ave. Carlos Soublette #8-35</Adres>
+    <Woonplaats>San Cristóbal</Woonplaats>
+    <Provincie>Táchira</Provincie>
+    <Postcode>5022</Postcode>
+    <Land>Venezuela</Land>
+    <Telefoon>(5) 555-1340</Telefoon>
+    <Fax>(5) 555-1948</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>HUNGC</CustomerID>
+    <Bedrijfsnaam>Hungry Coyote Import Store</Bedrijfsnaam>
+    <Contact>Yoshi Latimer</Contact>
+    <Adres>City Center Plaza 516 Main St.</Adres>
+    <Woonplaats>Elgin</Woonplaats>
+    <Provincie>OR</Provincie>
+    <Postcode>97827</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(503) 555-6874</Telefoon>
+    <Fax>(503) 555-2376</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>HUNGO</CustomerID>
+    <Bedrijfsnaam>Hungry Owl All-Night Grocers</Bedrijfsnaam>
+    <Contact>Patricia McKenna</Contact>
+    <Adres>8 Johnstown Road</Adres>
+    <Woonplaats>Cork</Woonplaats>
+    <Provincie>Co. Cork</Provincie>
+    <Postcode />
+    <Land>Ireland</Land>
+    <Telefoon>2967 542</Telefoon>
+    <Fax>2967 3333</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>ISLAT</CustomerID>
+    <Bedrijfsnaam>Island Trading</Bedrijfsnaam>
+    <Contact>Helen Bennett</Contact>
+    <Adres>Garden House Crowther Way</Adres>
+    <Woonplaats>Cowes</Woonplaats>
+    <Provincie>Isle of Wight</Provincie>
+    <Postcode>PO31 7PJ</Postcode>
+    <Land>UK</Land>
+    <Telefoon>(198) 555-8888</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>KOENE</CustomerID>
+    <Bedrijfsnaam>Königlich Essen</Bedrijfsnaam>
+    <Contact>Philip Cramer</Contact>
+    <Adres>Maubelstr. 90</Adres>
+    <Woonplaats>Brandenburg</Woonplaats>
+    <Provincie />
+    <Postcode>14776</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>0555-09876</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>LACOR</CustomerID>
+    <Bedrijfsnaam>La corne dabondance</Bedrijfsnaam>
+    <Contact>Daniel Tonini</Contact>
+    <Adres>67, avenue de lEurope</Adres>
+    <Woonplaats>Versailles</Woonplaats>
+    <Provincie />
+    <Postcode>78000</Postcode>
+    <Land>France</Land>
+    <Telefoon>30.59.84.10</Telefoon>
+    <Fax>30.59.85.11</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>LAMAI</CustomerID>
+    <Bedrijfsnaam>La maison d'Asie</Bedrijfsnaam>
+    <Contact>Annette Roulet</Contact>
+    <Adres>1 rue Alsace-Lorraine</Adres>
+    <Woonplaats>Toulouse</Woonplaats>
+    <Provincie />
+    <Postcode>31000</Postcode>
+    <Land>France</Land>
+    <Telefoon>61.77.61.10</Telefoon>
+    <Fax>61.77.61.11</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>LAUGB</CustomerID>
+    <Bedrijfsnaam>Laughing Bacchus Wine Cellars</Bedrijfsnaam>
+    <Contact>Yoshi Tannamuri</Contact>
+    <Adres>1900 Oak St.</Adres>
+    <Woonplaats>Vancouver</Woonplaats>
+    <Provincie>BC</Provincie>
+    <Postcode>V3F 2K1</Postcode>
+    <Land>Canada</Land>
+    <Telefoon>(604) 555-3392</Telefoon>
+    <Fax>(604) 555-7293</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>LAZYK</CustomerID>
+    <Bedrijfsnaam>Lazy K Kountry Store</Bedrijfsnaam>
+    <Contact>John Steel</Contact>
+    <Adres>12 Orchestra Terrace</Adres>
+    <Woonplaats>Walla Walla</Woonplaats>
+    <Provincie>WA</Provincie>
+    <Postcode>99362</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(509) 555-7969</Telefoon>
+    <Fax>(509) 555-6221</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>LEHMS</CustomerID>
+    <Bedrijfsnaam>Lehmanns Marktstand</Bedrijfsnaam>
+    <Contact>Renate Messner</Contact>
+    <Adres>Magazinweg 7</Adres>
+    <Woonplaats>Frankfurt a.M.</Woonplaats>
+    <Provincie />
+    <Postcode>60528</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>069-0245984</Telefoon>
+    <Fax>069-0245874</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>LETSS</CustomerID>
+    <Bedrijfsnaam>Let's Stop N Shop</Bedrijfsnaam>
+    <Contact>Jaime Yorres</Contact>
+    <Adres>87 Polk St. Suite 5</Adres>
+    <Woonplaats>San Francisco</Woonplaats>
+    <Provincie>CA</Provincie>
+    <Postcode>94117</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(415) 555-5938</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>LILAS</CustomerID>
+    <Bedrijfsnaam>LILA-Supermercado</Bedrijfsnaam>
+    <Contact>Carlos González</Contact>
+    <Adres>Carrera 52 con Ave. Bolívar #65-98 Llano Largo</Adres>
+    <Woonplaats>Barquisimeto</Woonplaats>
+    <Provincie>Lara</Provincie>
+    <Postcode>3508</Postcode>
+    <Land>Venezuela</Land>
+    <Telefoon>(9) 331-6954</Telefoon>
+    <Fax>(9) 331-7256</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>LINOD</CustomerID>
+    <Bedrijfsnaam>LINO-Delicateses</Bedrijfsnaam>
+    <Contact>Felipe Izquierdo</Contact>
+    <Adres>Ave. 5 de Mayo Porlamar</Adres>
+    <Woonplaats>I. de Margarita</Woonplaats>
+    <Provincie>Nueva Esparta</Provincie>
+    <Postcode>4980</Postcode>
+    <Land>Venezuela</Land>
+    <Telefoon>(8) 34-56-12</Telefoon>
+    <Fax>(8) 34-93-93</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>LONEP</CustomerID>
+    <Bedrijfsnaam>Lonesome Pine Restaurant</Bedrijfsnaam>
+    <Contact>Fran Wilson</Contact>
+    <Adres>89 Chiaroscuro Rd.</Adres>
+    <Woonplaats>Portland</Woonplaats>
+    <Provincie>OR</Provincie>
+    <Postcode>97219</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(503) 555-9573</Telefoon>
+    <Fax>(503) 555-9646</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>MAGAA</CustomerID>
+    <Bedrijfsnaam>Magazzini Alimentari Riuniti</Bedrijfsnaam>
+    <Contact>Giovanni Rovelli</Contact>
+    <Adres>Via Ludovico il Moro 22</Adres>
+    <Woonplaats>Bergamo</Woonplaats>
+    <Provincie />
+    <Postcode>24100</Postcode>
+    <Land>Italy</Land>
+    <Telefoon>035-640230</Telefoon>
+    <Fax>035-640231</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>MAISD</CustomerID>
+    <Bedrijfsnaam>Maison Dewey</Bedrijfsnaam>
+    <Contact>Catherine Dewey</Contact>
+    <Adres>Rue Joseph-Bens 532</Adres>
+    <Woonplaats>Bruxelles</Woonplaats>
+    <Provincie />
+    <Postcode>B-1180</Postcode>
+    <Land>Belgium</Land>
+    <Telefoon>(02) 201 24 67</Telefoon>
+    <Fax>(02) 201 24 68</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>MEREP</CustomerID>
+    <Bedrijfsnaam>Mère Paillarde</Bedrijfsnaam>
+    <Contact>Jean Fresnière</Contact>
+    <Adres>43 rue St. Laurent</Adres>
+    <Woonplaats>Montréal</Woonplaats>
+    <Provincie>Québec</Provincie>
+    <Postcode>H1J 1C3</Postcode>
+    <Land>Canada</Land>
+    <Telefoon>(514) 555-8054</Telefoon>
+    <Fax>(514) 555-8055</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>MORGK</CustomerID>
+    <Bedrijfsnaam>Morgenstern Gesundkost</Bedrijfsnaam>
+    <Contact>Alexander Feuer</Contact>
+    <Adres>Heerstr. 22</Adres>
+    <Woonplaats>Leipzig</Woonplaats>
+    <Provincie />
+    <Postcode>04179</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>0342-023176</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>NORTS</CustomerID>
+    <Bedrijfsnaam>North/South</Bedrijfsnaam>
+    <Contact>Simon Crowther</Contact>
+    <Adres>South House 300 Queensbridge</Adres>
+    <Woonplaats>London</Woonplaats>
+    <Provincie />
+    <Postcode>SW7 1RZ</Postcode>
+    <Land>UK</Land>
+    <Telefoon>(171) 555-7733</Telefoon>
+    <Fax>(171) 555-2530</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>OCEAN</CustomerID>
+    <Bedrijfsnaam>Océano Atlántico Ltda.</Bedrijfsnaam>
+    <Contact>Yvonne Moncada</Contact>
+    <Adres>Ing. Gustavo Moncada 8585 Piso 20-A</Adres>
+    <Woonplaats>Buenos Aires</Woonplaats>
+    <Provincie />
+    <Postcode>1010</Postcode>
+    <Land>Argentina</Land>
+    <Telefoon>(1) 135-5333</Telefoon>
+    <Fax>(1) 135-5535</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>OLDWO</CustomerID>
+    <Bedrijfsnaam>Old World Delicatessen</Bedrijfsnaam>
+    <Contact>Rene Phillips</Contact>
+    <Adres>2743 Bering St.</Adres>
+    <Woonplaats>Anchorage</Woonplaats>
+    <Provincie>AK</Provincie>
+    <Postcode>99508</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(907) 555-7584</Telefoon>
+    <Fax>(907) 555-2880</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>OTTIK</CustomerID>
+    <Bedrijfsnaam>Ottilies Käseladen</Bedrijfsnaam>
+    <Contact>Henriette Pfalzheim</Contact>
+    <Adres>Mehrheimerstr. 369</Adres>
+    <Woonplaats>Köln</Woonplaats>
+    <Provincie />
+    <Postcode>50739</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>0221-0644327</Telefoon>
+    <Fax>0221-0765721</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>PARIS</CustomerID>
+    <Bedrijfsnaam>Paris spécialités</Bedrijfsnaam>
+    <Contact>Marie Bertrand</Contact>
+    <Adres>265, boulevard Charonne</Adres>
+    <Woonplaats>Paris</Woonplaats>
+    <Provincie />
+    <Postcode>75012</Postcode>
+    <Land>France</Land>
+    <Telefoon>(1) 42.34.22.66</Telefoon>
+    <Fax>(1) 42.34.22.77</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>PERIC</CustomerID>
+    <Bedrijfsnaam>Pericles Comidas clásicas</Bedrijfsnaam>
+    <Contact>Guillermo Fernández</Contact>
+    <Adres>Calle Dr. Jorge Cash 321</Adres>
+    <Woonplaats>México D.F.</Woonplaats>
+    <Provincie />
+    <Postcode>05033</Postcode>
+    <Land>Mexico</Land>
+    <Telefoon>(5) 552-3745</Telefoon>
+    <Fax>(5) 545-3745</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>PICCO</CustomerID>
+    <Bedrijfsnaam>Piccolo und mehr</Bedrijfsnaam>
+    <Contact>Georg Pipps</Contact>
+    <Adres>Geislweg 14</Adres>
+    <Woonplaats>Salzburg</Woonplaats>
+    <Provincie />
+    <Postcode>5020</Postcode>
+    <Land>Austria</Land>
+    <Telefoon>6562-9722</Telefoon>
+    <Fax>6562-9723</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>PRINI</CustomerID>
+    <Bedrijfsnaam>Princesa Isabel Vinhos</Bedrijfsnaam>
+    <Contact>Isabel de Castro</Contact>
+    <Adres>Estrada da saúde n. 58</Adres>
+    <Woonplaats>Lisboa</Woonplaats>
+    <Provincie />
+    <Postcode>1756</Postcode>
+    <Land>Portugal</Land>
+    <Telefoon>(1) 356-5634</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>QUEDE</CustomerID>
+    <Bedrijfsnaam>Que Delícia</Bedrijfsnaam>
+    <Contact>Bernardo Batista</Contact>
+    <Adres>Rua da Panificadora, 12</Adres>
+    <Woonplaats>Rio de Janeiro</Woonplaats>
+    <Provincie>RJ</Provincie>
+    <Postcode>02389-673</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(21) 555-4252</Telefoon>
+    <Fax>(21) 555-4545</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>QUEEN</CustomerID>
+    <Bedrijfsnaam>Queen Cozinha</Bedrijfsnaam>
+    <Contact>Lúcia Carvalho</Contact>
+    <Adres>Alameda dos Canàrios, 891</Adres>
+    <Woonplaats>Sao Paulo</Woonplaats>
+    <Provincie>SP</Provincie>
+    <Postcode>05487-020</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(11) 555-1189</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>QUICK</CustomerID>
+    <Bedrijfsnaam>QUICK-Stop</Bedrijfsnaam>
+    <Contact>Horst Kloss</Contact>
+    <Adres>Taucherstraße 10</Adres>
+    <Woonplaats>Cunewalde</Woonplaats>
+    <Provincie />
+    <Postcode>01307</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>0372-035188</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>RANCH</CustomerID>
+    <Bedrijfsnaam>Rancho grande</Bedrijfsnaam>
+    <Contact>Sergio Gutiérrez</Contact>
+    <Adres>Av. del Libertador 900</Adres>
+    <Woonplaats>Buenos Aires</Woonplaats>
+    <Provincie />
+    <Postcode>1010</Postcode>
+    <Land>Argentina</Land>
+    <Telefoon>(1) 123-5555</Telefoon>
+    <Fax>(1) 123-5556</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>RATTC</CustomerID>
+    <Bedrijfsnaam>Rattlesnake Canyon Grocery</Bedrijfsnaam>
+    <Contact>Paula Wilson</Contact>
+    <Adres>2817 Milton Dr.</Adres>
+    <Woonplaats>Albuquerque</Woonplaats>
+    <Provincie>NM</Provincie>
+    <Postcode>87110</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(505) 555-5939</Telefoon>
+    <Fax>(505) 555-3620</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>REGGC</CustomerID>
+    <Bedrijfsnaam>Reggiani Caseifici</Bedrijfsnaam>
+    <Contact>Maurizio Moroni</Contact>
+    <Adres>Strada Provinciale 124</Adres>
+    <Woonplaats>Reggio Emilia</Woonplaats>
+    <Provincie />
+    <Postcode>42100</Postcode>
+    <Land>Italy</Land>
+    <Telefoon>0522-556721</Telefoon>
+    <Fax>0522-556722</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>RICAR</CustomerID>
+    <Bedrijfsnaam>Ricardo Adocicados</Bedrijfsnaam>
+    <Contact>Janete Limeira</Contact>
+    <Adres>Av. Copacabana, 267</Adres>
+    <Woonplaats>Rio de Janeiro</Woonplaats>
+    <Provincie>RJ</Provincie>
+    <Postcode>02389-890</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(21) 555-3412</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>RICSU</CustomerID>
+    <Bedrijfsnaam>Richter Supermarkt</Bedrijfsnaam>
+    <Contact>Michael Holz</Contact>
+    <Adres>Grenzacherweg 237</Adres>
+    <Woonplaats>Genève</Woonplaats>
+    <Provincie />
+    <Postcode>1203</Postcode>
+    <Land>Switzerland</Land>
+    <Telefoon>0897-034214</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>ROMEY</CustomerID>
+    <Bedrijfsnaam>Romero y tomillo</Bedrijfsnaam>
+    <Contact>Alejandra Camino</Contact>
+    <Adres>Gran Vía, 1</Adres>
+    <Woonplaats>Madrid</Woonplaats>
+    <Provincie />
+    <Postcode>28001</Postcode>
+    <Land>Spain</Land>
+    <Telefoon>(91) 745 6200</Telefoon>
+    <Fax>(91) 745 6210</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>SANTG</CustomerID>
+    <Bedrijfsnaam>Santé Gourmet</Bedrijfsnaam>
+    <Contact>Jonas Bergulfsen</Contact>
+    <Adres>Erling Skakkes gate 78</Adres>
+    <Woonplaats>Stavern</Woonplaats>
+    <Provincie />
+    <Postcode>4110</Postcode>
+    <Land>Norway</Land>
+    <Telefoon>07-98 92 35</Telefoon>
+    <Fax>07-98 92 47</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>SAVEA</CustomerID>
+    <Bedrijfsnaam>Save-a-lot Markets</Bedrijfsnaam>
+    <Contact>Jose Pavarotti</Contact>
+    <Adres>187 Suffolk Ln.</Adres>
+    <Woonplaats>Boise</Woonplaats>
+    <Provincie>ID</Provincie>
+    <Postcode>83720</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(208) 555-8097</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>SEVES</CustomerID>
+    <Bedrijfsnaam>Seven Seas Imports</Bedrijfsnaam>
+    <Contact>Hari Kumar</Contact>
+    <Adres>90 Wadhurst Rd.</Adres>
+    <Woonplaats>London</Woonplaats>
+    <Provincie />
+    <Postcode>OX15 4NB</Postcode>
+    <Land>UK</Land>
+    <Telefoon>(171) 555-1717</Telefoon>
+    <Fax>(171) 555-5646</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>SIMOB</CustomerID>
+    <Bedrijfsnaam>Simons bistro</Bedrijfsnaam>
+    <Contact>Jytte Petersen</Contact>
+    <Adres>Vinbæltet 34</Adres>
+    <Woonplaats>Kobenhavn</Woonplaats>
+    <Provincie />
+    <Postcode>1734</Postcode>
+    <Land>Denmark</Land>
+    <Telefoon>31 12 34 56</Telefoon>
+    <Fax>31 13 35 57</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>SPECD</CustomerID>
+    <Bedrijfsnaam>Spécialités du monde</Bedrijfsnaam>
+    <Contact>Dominique Perrier</Contact>
+    <Adres>25, rue Lauriston</Adres>
+    <Woonplaats>Paris</Woonplaats>
+    <Provincie />
+    <Postcode>75016</Postcode>
+    <Land>France</Land>
+    <Telefoon>(1) 47.55.60.10</Telefoon>
+    <Fax>(1) 47.55.60.20</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>SPLIR</CustomerID>
+    <Bedrijfsnaam>Split Rail Beer &amp; Ale</Bedrijfsnaam>
+    <Contact>Art Braunschweiger</Contact>
+    <Adres>P.O. Box 555</Adres>
+    <Woonplaats>Lander</Woonplaats>
+    <Provincie>WY</Provincie>
+    <Postcode>82520</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(307) 555-4680</Telefoon>
+    <Fax>(307) 555-6525</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>SUPRD</CustomerID>
+    <Bedrijfsnaam>Suprêmes délices</Bedrijfsnaam>
+    <Contact>Pascale Cartrain</Contact>
+    <Adres>Boulevard Tirou, 255</Adres>
+    <Woonplaats>Charleroi</Woonplaats>
+    <Provincie />
+    <Postcode>B-6000</Postcode>
+    <Land>Belgium</Land>
+    <Telefoon>(071) 23 67 22 20</Telefoon>
+    <Fax>(071) 23 67 22 21</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>THEBI</CustomerID>
+    <Bedrijfsnaam>The Big Cheese</Bedrijfsnaam>
+    <Contact>Liz Nixon</Contact>
+    <Adres>89 Jefferson Way Suite 2</Adres>
+    <Woonplaats>Portland</Woonplaats>
+    <Provincie>OR</Provincie>
+    <Postcode>97201</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(503) 555-3612</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>THECR</CustomerID>
+    <Bedrijfsnaam>The Cracker Box</Bedrijfsnaam>
+    <Contact>Liu Wong</Contact>
+    <Adres>55 Grizzly Peak Rd.</Adres>
+    <Woonplaats>Butte</Woonplaats>
+    <Provincie>MT</Provincie>
+    <Postcode>59801</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(406) 555-5834</Telefoon>
+    <Fax>(406) 555-8083</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>TOMSP</CustomerID>
+    <Bedrijfsnaam>Toms Spezialitäten</Bedrijfsnaam>
+    <Contact>Karin Josephs</Contact>
+    <Adres>Luisenstr. 48</Adres>
+    <Woonplaats>Münster</Woonplaats>
+    <Provincie />
+    <Postcode>44087</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>0251-031259</Telefoon>
+    <Fax>0251-035695</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>TORTU</CustomerID>
+    <Bedrijfsnaam>Tortuga Restaurante</Bedrijfsnaam>
+    <Contact>Miguel Angel Paolino</Contact>
+    <Adres>Avda. Azteca 123</Adres>
+    <Woonplaats>México D.F.</Woonplaats>
+    <Provincie />
+    <Postcode>05033</Postcode>
+    <Land>Mexico</Land>
+    <Telefoon>(5) 555-2933</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>TRADH</CustomerID>
+    <Bedrijfsnaam>Tradição Hipermercados</Bedrijfsnaam>
+    <Contact>Anabela Domingues</Contact>
+    <Adres>Av. Inês de Castro, 414</Adres>
+    <Woonplaats>Sao Paulo</Woonplaats>
+    <Provincie>SP</Provincie>
+    <Postcode>05634-030</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(11) 555-2167</Telefoon>
+    <Fax>(11) 555-2168</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>TRAIH</CustomerID>
+    <Bedrijfsnaam>Trail's Head Gourmet Provisioners</Bedrijfsnaam>
+    <Contact>Helvetius Nagy</Contact>
+    <Adres>722 DaVinci Blvd.</Adres>
+    <Woonplaats>Kirkland</Woonplaats>
+    <Provincie>WA</Provincie>
+    <Postcode>98034</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(206) 555-8257</Telefoon>
+    <Fax>(206) 555-2174</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>VAFFE</CustomerID>
+    <Bedrijfsnaam>Vaffeljernet</Bedrijfsnaam>
+    <Contact>Palle Ibsen</Contact>
+    <Adres>Smagsloget 45</Adres>
+    <Woonplaats>Århus</Woonplaats>
+    <Provincie />
+    <Postcode>8200</Postcode>
+    <Land>Denmark</Land>
+    <Telefoon>86 21 32 43</Telefoon>
+    <Fax>86 22 33 44</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>VICTE</CustomerID>
+    <Bedrijfsnaam>Victuailles en stock</Bedrijfsnaam>
+    <Contact>Mary Saveley</Contact>
+    <Adres>2, rue du Commerce</Adres>
+    <Woonplaats>Lyon</Woonplaats>
+    <Provincie />
+    <Postcode>69004</Postcode>
+    <Land>France</Land>
+    <Telefoon>78.32.54.86</Telefoon>
+    <Fax>78.32.54.87</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>VINET</CustomerID>
+    <Bedrijfsnaam>Vins et alcools Chevalier</Bedrijfsnaam>
+    <Contact>Paul Henriot</Contact>
+    <Adres>59 rue de l'Abbaye</Adres>
+    <Woonplaats>Reims</Woonplaats>
+    <Provincie />
+    <Postcode>51100</Postcode>
+    <Land>France</Land>
+    <Telefoon>26.47.15.10</Telefoon>
+    <Fax>26.47.15.11</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>WANDK</CustomerID>
+    <Bedrijfsnaam>Die Wandernde Kuh</Bedrijfsnaam>
+    <Contact>Rita Müller</Contact>
+    <Adres>Adenauerallee 900</Adres>
+    <Woonplaats>Stuttgart</Woonplaats>
+    <Provincie />
+    <Postcode>70563</Postcode>
+    <Land>Germany</Land>
+    <Telefoon>0711-020361</Telefoon>
+    <Fax>0711-035428</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>WARTH</CustomerID>
+    <Bedrijfsnaam>Wartian Herkku</Bedrijfsnaam>
+    <Contact>Pirkko Koskitalo</Contact>
+    <Adres>Torikatu 38</Adres>
+    <Woonplaats>Oulu</Woonplaats>
+    <Provincie />
+    <Postcode>90110</Postcode>
+    <Land>Finland</Land>
+    <Telefoon>981-443655</Telefoon>
+    <Fax>981-443655</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>WELLI</CustomerID>
+    <Bedrijfsnaam>Wellington Importadora</Bedrijfsnaam>
+    <Contact>Paula Parente</Contact>
+    <Adres>Rua do Mercado, 12</Adres>
+    <Woonplaats>Resende</Woonplaats>
+    <Provincie>SP</Provincie>
+    <Postcode>08737-363</Postcode>
+    <Land>Brazil</Land>
+    <Telefoon>(14) 555-8122</Telefoon>
+    <Fax />
+  </Customer>
+  <Customer>
+    <CustomerID>WHITC</CustomerID>
+    <Bedrijfsnaam>White Clover Markets</Bedrijfsnaam>
+    <Contact>Karl Jablonski</Contact>
+    <Adres>305 - 14th Ave. S. Suite 3B</Adres>
+    <Woonplaats>Seattle</Woonplaats>
+    <Provincie>WA</Provincie>
+    <Postcode>98128</Postcode>
+    <Land>USA</Land>
+    <Telefoon>(206) 555-4112</Telefoon>
+    <Fax>(206) 555-4115</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>WILMK</CustomerID>
+    <Bedrijfsnaam>Wilman Kala</Bedrijfsnaam>
+    <Contact>Matti Karttunen</Contact>
+    <Adres>Keskuskatu 45</Adres>
+    <Woonplaats>Helsinki</Woonplaats>
+    <Provincie />
+    <Postcode>21240</Postcode>
+    <Land>Finland</Land>
+    <Telefoon>90-224 8858</Telefoon>
+    <Fax>90-224 8858</Fax>
+  </Customer>
+  <Customer>
+    <CustomerID>WOLZA</CustomerID>
+    <Bedrijfsnaam>Wolski  Zajazd</Bedrijfsnaam>
+    <Contact>Zbyszek Piestrzeniewicz</Contact>
+    <Adres>ul. Filtrowa 68</Adres>
+    <Woonplaats>Warszawa</Woonplaats>
+    <Provincie />
+    <Postcode>01-012</Postcode>
+    <Land>Poland</Land>
+    <Telefoon>(26) 642-7012</Telefoon>
+    <Fax>(26) 642-7012</Fax>
+  </Customer>
+</ArrayOfCustomer>

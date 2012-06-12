@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FE7A1306-2AE4-45F0-834F-6862DB725EED}"
+	ProjectSection(SolutionItems) = preProject
+		..\Images\Finder .png = ..\Images\Finder .png
+		Local.testsettings = Local.testsettings
+		WPFChatProgram1.vsmdi = WPFChatProgram1.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFChatProgram", "..\WPFChatProgram\WPFChatProgram.csproj", "{A5AEBDBD-63E6-4BF7-9A38-9CE15857D99F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatModel", "..\ChatModel\ChatModel.csproj", "{D0A22E42-9099-4D92-BEFC-273DFBA9F1B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{0C66D1BB-116A-4496-9E41-596BAA48169B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General Libraries", "General Libraries", "{EB442CE6-4DF9-4EDB-AB0E-0CCDEB5BF1D1}"
+	ProjectSection(SolutionItems) = preProject
+		..\General Libraries\IndicatorLightWPF.dll = ..\General Libraries\IndicatorLightWPF.dll
+		..\General Libraries\LeBroITSolutions.MaskedTextBox.dll = ..\General Libraries\LeBroITSolutions.MaskedTextBox.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkLogic", "..\NetworkLogic\NetworkLogic.csproj", "{0CA483FD-86E1-4694-B394-D070C095691B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFChatProgramTests", "..\WPFChatProgramTests\WPFChatProgramTests.csproj", "{1787FA77-F561-44E2-BD15-35A6759711C1}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://lebro:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\WPFChatProgram\\WPFChatProgram.csproj
+		SccProjectName1 = ../WPFChatProgram
+		SccLocalPath1 = ..\\WPFChatProgram
+		SccProjectUniqueName2 = ..\\ChatModel\\ChatModel.csproj
+		SccProjectName2 = ../ChatModel
+		SccLocalPath2 = ..\\ChatModel
+		SccProjectUniqueName3 = Common\\Common.csproj
+		SccProjectName3 = Common
+		SccLocalPath3 = Common
+		SccProjectUniqueName4 = ..\\NetworkLogic\\NetworkLogic.csproj
+		SccProjectName4 = ../NetworkLogic
+		SccLocalPath4 = ..\\NetworkLogic
+		SccProjectUniqueName5 = ..\\WPFChatProgramTests\\WPFChatProgramTests.csproj
+		SccProjectName5 = ../WPFChatProgramTests
+		SccLocalPath5 = ..\\WPFChatProgramTests
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WPFChatProgram1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5AEBDBD-63E6-4BF7-9A38-9CE15857D99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5AEBDBD-63E6-4BF7-9A38-9CE15857D99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5AEBDBD-63E6-4BF7-9A38-9CE15857D99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5AEBDBD-63E6-4BF7-9A38-9CE15857D99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0A22E42-9099-4D92-BEFC-273DFBA9F1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0A22E42-9099-4D92-BEFC-273DFBA9F1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0A22E42-9099-4D92-BEFC-273DFBA9F1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0A22E42-9099-4D92-BEFC-273DFBA9F1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C66D1BB-116A-4496-9E41-596BAA48169B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C66D1BB-116A-4496-9E41-596BAA48169B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C66D1BB-116A-4496-9E41-596BAA48169B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C66D1BB-116A-4496-9E41-596BAA48169B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA483FD-86E1-4694-B394-D070C095691B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA483FD-86E1-4694-B394-D070C095691B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA483FD-86E1-4694-B394-D070C095691B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA483FD-86E1-4694-B394-D070C095691B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1787FA77-F561-44E2-BD15-35A6759711C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1787FA77-F561-44E2-BD15-35A6759711C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1787FA77-F561-44E2-BD15-35A6759711C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1787FA77-F561-44E2-BD15-35A6759711C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

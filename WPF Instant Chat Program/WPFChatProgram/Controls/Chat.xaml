@@ -1,0 +1,119 @@
+﻿<UserControl x:Class="WPFChatProgram.Controls.Chat"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:controllers="clr-namespace:WPFChatProgram.Controllers" 
+    xmlns:Components="clr-namespace:WPFChatProgram.Components" 
+    xmlns:IndicatorLightWPF="clr-namespace:LeBroITSolutions.IndicatorLightWPF;assembly=IndicatorLightWPF" 
+    Height="587" Width="350" Background="Transparent" 
+    BorderThickness="0.5" BorderBrush="Transparent" >
+    <UserControl.DataContext>
+        <controllers:ChatController/>
+    </UserControl.DataContext>    
+    <Grid>        
+        <Border Style="{StaticResource OuterBorderStyle}">            
+        </Border>
+        <Border  Style="{StaticResource MiddleBorderStyle}" >
+        </Border>
+        <Border Style="{StaticResource InnerBorderStyle}" >
+        </Border>
+        <Border Style="{StaticResource MoreInnerBorderStyle}">
+        </Border>
+        <Border Style="{StaticResource MostInnerBorderStyle}">
+            <Grid>
+                <Border Style="{StaticResource HeaderBorderStyle}" >
+                    <Label Height="46" Width="248" 
+                           Style="{StaticResource LabelTitleStyle}"
+                           FontSize="20"
+                           HorizontalContentAlignment="Right" 
+                           Content="IP-Instant.Chat"/>
+                </Border>
+                <Image  Style="{StaticResource UpperRightCornerImage}" 
+                        Margin="14,9,0,0" 
+                        Source="/WPFChatProgram;component/Images/Finder.png" />
+                <Components:RichTextBoxWithDocumentDependency 
+                             x:Name="txtMessageToSend"
+                             Document="{Binding Path=DocumentSend, Mode=TwoWay}"
+                             Style="{StaticResource MessageToSend}"
+                             FontSize="{Binding Path=MainUser.FontSize, Mode=Default}"
+                             FontFamily="{Binding Path=MainUser.FontName, Mode=Default}" 
+                             Foreground="{Binding Path=MainUser.TextColor, Mode=Default}"
+                             VerticalScrollBarVisibility="Auto" 
+                             PreviewKeyDown="EnterKeyPressed"/>                
+                <Button ToolTip="{DynamicResource AddImageButtonTooltip}"
+                        Style="{StaticResource ButtonAddImage}"
+                        Click="SearchIcons">
+                    <Image Source="/WPFChatProgram;component/Images/Smile.ico" 
+                           Stretch="Fill"/>                    
+                </Button>
+                <Button ToolTip="{DynamicResource EraseMainTextTooltip}"
+                        Style="{StaticResource ButtonEraseText}"
+                        Command="{Binding Path=EraseFlowDocumentCommand}">
+                    <Image Source="/WPFChatProgram;component/Images/eraser.png" 
+                           Stretch="Fill"/>
+                </Button>
+                <IndicatorLightWPF:IndicatorLight
+                    Name="ChatHostActive"
+                    Style="{StaticResource LightIndicator}"
+                    IndicatorLightRadius="8"
+                    IndicatorLightOffset="80"
+                    ToolTip="{DynamicResource IndicatorLightTooltip}"/>
+                <TextBlock 
+                    Name="ChatHostActiveText"
+                    Style="{StaticResource ChatHostActiveTextStyle}"
+                    Text="{Binding Path=ChatContactActiveText}"/>
+                
+                 <!--TODO: button om geluiden te verzenden toevoegen-->
+                <Components:RichTextBoxWithDocumentDependency
+                             x:Name="txtMessageSendReceive"
+                             Document="{Binding Path=DocumentSendReceived, Mode=TwoWay}"
+                             ToolTip="{DynamicResource EditTextPropsTooltip}"
+                             Style="{StaticResource MessageToSendReceive}"
+                             FontSize="{Binding Path=MainUser.FontSize, Mode=Default}"
+                             FontFamily="{Binding Path=MainUser.FontName, Mode=Default}" 
+                             Foreground="{Binding Path=MainUser.TextColor, Mode=Default}"
+                             VerticalScrollBarVisibility="Auto" 
+                             IsReadOnly="True">
+                    <Components:RichTextBoxWithDocumentDependency.ContextMenu>
+                        <ContextMenu>
+                            <MenuItem Header="{DynamicResource SetFontSize}"
+                                      ToolTip="{DynamicResource SetFontSizeTooltip}">
+                                <ComboBox Name="FontSizeCmb"
+                                          ItemsSource="{Binding Path=FontSizeRtb, Mode=Default}"
+                                          Text="{Binding Path=MainUser.FontSize}"
+                                          SelectionChanged="FontSizeCmbSelectionChanged"/>                                    
+                            </MenuItem>
+                            <MenuItem Header="{DynamicResource SetFont}"
+                                      ToolTip="{DynamicResource SetFontTooltip}">
+                                <ComboBox Name="FontCmb"
+                                          Text="{Binding Path=MainUser.FontName}"
+                                          SelectionChanged="FontCmbSelectionChanged">
+                                    <ComboBox.ItemsPanel>
+                                        <ItemsPanelTemplate>
+                                            <VirtualizingStackPanel />
+                                        </ItemsPanelTemplate>
+                                    </ComboBox.ItemsPanel>
+                                    <ComboBox.ItemTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding}" 
+                                                       FontFamily="{Binding}"/>
+                                        </DataTemplate>
+                                    </ComboBox.ItemTemplate>
+                                </ComboBox>                                
+                            </MenuItem>
+                            <MenuItem Header="{DynamicResource SetFontColor}"
+                                      ToolTip="{DynamicResource SetFontColorTooltip}">
+                                <ComboBox Name="FontColorCmb"
+                                          ItemsSource="{Binding Source={StaticResource colorPropertiesOdp}}"     
+                                          DisplayMemberPath="Name"     
+                                          SelectedValuePath="Name"
+                                          Text="{Binding Path=MainUser.TextColor}"
+                                          SelectionChanged="FontColorCmbSelectionChanged">
+                                </ComboBox>
+                            </MenuItem>
+                        </ContextMenu>
+                    </Components:RichTextBoxWithDocumentDependency.ContextMenu>
+                </Components:RichTextBoxWithDocumentDependency>                            
+            </Grid>
+        </Border>
+    </Grid> 
+</UserControl>

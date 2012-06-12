@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LebroITSolution.Generics", "LebroITSolution.Generics\LebroITSolution.Generics.csproj", "{6284492A-BA39-4AB8-A411-68B8D42C20DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LebroITSolution.Generics.Tests", "LebroITSolution.Generics.Tests\LebroITSolution.Generics.Tests.csproj", "{F95DF518-6341-4C1D-A423-2F52E73E7902}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{316FA954-F222-4DA5-9488-E2A90D90CCF5}"
+	ProjectSection(SolutionItems) = preProject
+		LebroITSolutions.Generics.Solution.vsmdi = LebroITSolutions.Generics.Solution.vsmdi
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LebroITSolutions.Framework", "LebroITSolutions.Framework\LebroITSolutions.Framework.csproj", "{E63A5664-1136-41BA-AA0E-66ED0FF79FF3}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://lebro:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = LebroITSolution.Generics.Tests\\LebroITSolution.Generics.Tests.csproj
+		SccProjectName1 = LebroITSolution.Generics.Tests
+		SccLocalPath1 = LebroITSolution.Generics.Tests
+		SccProjectUniqueName2 = LebroITSolution.Generics\\LebroITSolution.Generics.csproj
+		SccProjectName2 = LebroITSolution.Generics
+		SccLocalPath2 = LebroITSolution.Generics
+		SccProjectUniqueName3 = LebroITSolutions.Framework\\LebroITSolutions.Framework.csproj
+		SccProjectName3 = LebroITSolutions.Framework
+		SccLocalPath3 = LebroITSolutions.Framework
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = LebroITSolutions.Generics.Solution.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6284492A-BA39-4AB8-A411-68B8D42C20DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6284492A-BA39-4AB8-A411-68B8D42C20DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6284492A-BA39-4AB8-A411-68B8D42C20DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6284492A-BA39-4AB8-A411-68B8D42C20DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F95DF518-6341-4C1D-A423-2F52E73E7902}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F95DF518-6341-4C1D-A423-2F52E73E7902}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F95DF518-6341-4C1D-A423-2F52E73E7902}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F95DF518-6341-4C1D-A423-2F52E73E7902}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63A5664-1136-41BA-AA0E-66ED0FF79FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63A5664-1136-41BA-AA0E-66ED0FF79FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63A5664-1136-41BA-AA0E-66ED0FF79FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63A5664-1136-41BA-AA0E-66ED0FF79FF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
